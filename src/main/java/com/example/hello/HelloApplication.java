@@ -13,7 +13,7 @@ public class HelloApplication {
 	
 	@RequestMapping("/")
 	String hello(){
-		return "Hello! Devendra";
+		return "Hello! Devendra, how r u?";
 	}
 
 	public static void main(String[] args) {
